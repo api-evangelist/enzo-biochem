@@ -1,0 +1,32 @@
+# Enzo Biochem
+
+> Enzo Biochem, Inc. (operating as Enzo Life Sciences) is a life sciences company specializing in labeling and detection technologies for biomedical research and drug development. It develops and manufactures research reagents and assays — RNA probes, antibodies, ELISA immunoassays, IHC products, and cell-based assays — and provides biopharma drug-discovery and GMP manufacturing services. Products are sold through an online catalog at enzo.com; Enzo does not publish a public developer API.
+
+<!--
+generated: '2026-07-19'
+method: generated
+source: apis.yml
+-->
+
+## About
+
+- [Enzo website](https://www.enzo.com/): Company home and product catalog.
+- [Investor relations](https://ir.enzo.com/): Enzo Biochem, Inc. investor information.
+- [Support / help center](https://www.enzo.com/help/): Customer service and technical support.
+- [Account login](https://www.enzo.com/my-account/): Customer account portal.
+
+## Resources
+
+- [Blogs & news](https://www.enzo.com/resources/blogs/): Company blog and news.
+- [Application notes](https://www.enzo.com/resources/application-notes/): Technical application notes.
+- [Scientific literature](https://www.enzo.com/resources/scientific-literature/): Citations and literature.
+- [Manuals & protocols](https://www.enzo.com/help/products-manuals-protocols/): Product manuals and protocols.
+
+## Legal
+
+- [Privacy policy](https://www.enzo.com/legal/privacy-policy/): Privacy policy.
+- [Terms & conditions](https://www.enzo.com/legal/terms-conditions/): Terms of use.
+
+## Note
+
+No OpenAPI, AsyncAPI, MCP server, SDK, or /.well-known/ discovery surface was found for this provider (all /.well-known/ paths and /llms.txt returned HTTP 404 as of 2026-07-19). This profile is a company identity record, not an API.

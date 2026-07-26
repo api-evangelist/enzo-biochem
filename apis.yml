@@ -1,8 +1,29 @@
 aid: enzo-biochem
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enzo-biochem.png
 name: Enzo Biochem
-description: Enzo Biochem is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Enzo Biochem, Inc. (operating as Enzo Life Sciences) is a life sciences company
+  specializing in labeling and detection technologies for biomedical research and
+  drug development. Trading under the tagline "Scientists Enabling Scientists," Enzo
+  develops and manufactures research reagents and assays including AMPIVIEW RNA probes
+  for in-situ hybridization and FISH, antibodies, ELISA immunoassays, immunohistochemistry
+  (IHC) products, and CELLESTIAL cell-based assays. Its biopharma arm provides drug
+  discovery services, target identification and validation, assay development, in vitro
+  toxicology, and GMP manufacturing. Products are sold through an online catalog and
+  account portal at enzo.com rather than a public developer API. This profile was added
+  to the API Evangelist network as a stub company lead and enriched with the identity,
+  website, and domain-security posture that could be verified from public sources.
 url: https://raw.githubusercontent.com/api-evangelist/enzo-biochem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Life Sciences
+- Biotechnology
+- Research Reagents
+- Diagnostics
+- Drug Discovery
+- Immunoassays
+- Laboratory
 apis: []
+common:
+- type: DomainSecurity
+  url: security/enzo-biochem-domain-security.yml
+- type: LLMsTxt
+  url: llms/enzo-biochem-llms.txt
+- type: Website
+  url: https://www.enzo.com/
+- type: Support
+  url: https://www.enzo.com/help/
+- type: Blog
+  url: https://www.enzo.com/resources/blogs/
+- type: Login
+  url: https://www.enzo.com/my-account/
+- type: PrivacyPolicy
+  url: https://www.enzo.com/legal/privacy-policy/
+- type: TermsOfService
+  url: https://www.enzo.com/legal/terms-conditions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
